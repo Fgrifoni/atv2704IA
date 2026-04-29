@@ -1,0 +1,135 @@
+import gensim.downloader as api
+
+# Carregar embeddings GloVe pré-treinados
+glove_model = api.load("glove-wiki-gigaword-100")
+
+# Obter vetor de palavra para uma palavra específica
+word_vector = glove_model['apple']
+print("Vetor GloVe para a palavra 'apple':", word_vector)
+
+# Encontrar palavras mais similares
+similar_words = glove_model.most_similar('apple', topn=5)
+print("Palavras mais similares a 'apple':", similar_words)
+
+word_vector = glove_model['potato']
+print("Vetor GloVe para a palavra 'potato':", word_vector)
+
+similar_words = glove_model.most_similar('potato', topn=5)
+print("Palavras mais similares a 'potato':", similar_words)
+
+word_vector = glove_model['original']
+print("Vetor GloVe para a palavra 'original':", word_vector)
+
+similar_words = glove_model.most_similar('original', topn=5)
+print("Palavras mais similares a 'original':", similar_words)
+
+word_vector = glove_model['canada']
+print("Vetor GloVe para a palavra 'canada':", word_vector)
+
+similar_words = glove_model.most_similar('canada', topn=5)
+print("Palavras mais similares a 'canada':", similar_words)
+
+word_vector = glove_model['duck']
+print("Vetor GloVe para a palavra 'duck':", word_vector)
+
+similar_words = glove_model.most_similar('duck', topn=5)
+print("Palavras mais similares a 'duck':", similar_words)
+
+word_vector = glove_model['windows']
+print("Vetor GloVe para a palavra 'windows':", word_vector)
+
+similar_words = glove_model.most_similar('windows', topn=5)
+print("Palavras mais similares a 'windows':", similar_words)
+
+word_vector = glove_model['bag']
+print("Vetor GloVe para a palavra 'bag':", word_vector)
+
+similar_words = glove_model.most_similar('bag', topn=5)
+print("Palavras mais similares a 'bag':", similar_words)
+
+word_vector = glove_model['edge']
+print("Vetor GloVe para a palavra 'edge':", word_vector)
+
+similar_words = glove_model.most_similar('edge', topn=5)
+print("Palavras mais similares a 'edge':", similar_words)
+
+word_vector = glove_model['marvel']
+print("Vetor GloVe para a palavra 'marvel':", word_vector)
+
+similar_words = glove_model.most_similar('marvel', topn=5)
+print("Palavras mais similares a 'marvel':", similar_words)
+
+word_vector = glove_model['banana']
+print("Vetor GloVe para a palavra 'banana':", word_vector)
+similar_words = glove_model.most_similar('banana', topn=5)
+print("Palavras mais similares a 'banana':", similar_words)
+
+word_vector = glove_model['car']
+print("Vetor GloVe para a palavra 'car':", word_vector)
+similar_words = glove_model.most_similar('car', topn=5)
+print("Palavras mais similares a 'car':", similar_words)
+
+word_vector = glove_model['ocean']
+print("Vetor GloVe para a palavra 'ocean':", word_vector)
+similar_words = glove_model.most_similar('ocean', topn=5)
+print("Palavras mais similares a 'ocean':", similar_words)
+
+word_vector = glove_model['computer']
+print("Vetor GloVe para a palavra 'computer':", word_vector)
+similar_words = glove_model.most_similar('computer', topn=5)
+print("Palavras mais similares a 'computer':", similar_words)
+
+word_vector = glove_model['book']
+print("Vetor GloVe para a palavra 'book':", word_vector)
+similar_words = glove_model.most_similar('book', topn=5)
+print("Palavras mais similares a 'book':", similar_words)
+
+word_vector = glove_model['music']
+print("Vetor GloVe para a palavra 'music':", word_vector)
+similar_words = glove_model.most_similar('music', topn=5)
+print("Palavras mais similares a 'music':", similar_words)
+
+word_vector = glove_model['mountain']
+print("Vetor GloVe para a palavra 'mountain':", word_vector)
+similar_words = glove_model.most_similar('mountain', topn=5)
+print("Palavras mais similares a 'mountain':", similar_words)
+
+word_vector = glove_model['bird']
+print("Vetor GloVe para a palavra 'bird':", word_vector)
+similar_words = glove_model.most_similar('bird', topn=5)
+print("Palavras mais similares a 'bird':", similar_words)
+
+word_vector = glove_model['city']
+print("Vetor GloVe para a palavra 'city':", word_vector)
+similar_words = glove_model.most_similar('city', topn=5)
+print("Palavras mais similares a 'city':", similar_words)
+
+word_vector = glove_model['flower']
+print("Vetor GloVe para a palavra 'flower':", word_vector)
+similar_words = glove_model.most_similar('flower', topn=5)
+print("Palavras mais similares a 'flower':", similar_words)
+
+word_vector = glove_model['happy']
+print("Vetor GloVe para a palavra 'happy':", word_vector)
+similar_words = glove_model.most_similar('happy', topn=5)
+print("Palavras mais similares a 'happy':", similar_words)
+
+word_vector = glove_model['science']
+print("Vetor GloVe para a palavra 'science':", word_vector)
+similar_words = glove_model.most_similar('science', topn=5)
+print("Palavras mais similares a 'science':", similar_words)
+
+word_vector = glove_model['coffee']
+print("Vetor GloVe para a palavra 'coffee':", word_vector)
+similar_words = glove_model.most_similar('coffee', topn=5)
+print("Palavras mais similares a 'coffee':", similar_words)
+
+word_vector = glove_model['travel']
+print("Vetor GloVe para a palavra 'travel':", word_vector)
+similar_words = glove_model.most_similar('travel', topn=5)
+print("Palavras mais similares a 'travel':", similar_words)
+
+word_vector = glove_model['football']
+print("Vetor GloVe para a palavra 'football':", word_vector)
+similar_words = glove_model.most_similar('football', topn=5)
+print("Palavras mais similares a 'football':", similar_words)
